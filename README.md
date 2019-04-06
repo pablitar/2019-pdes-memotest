@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/pablitar/2019-pdes-memotest.svg?branch=master)](https://travis-ci.org/pablitar/2019-pdes-memotest)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
