@@ -1,0 +1,21 @@
+.pieza {
+    font-family: "Noto Color Emoji", "Apple Color Emoji", "Segoe UI Emoji", Times, Symbola, Aegyptus, Code2000, Code2001, Code2002, Musica, serif, LastResort;
+    font-size: 60px;
+    height: 96px;
+    width: 96px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    border-radius: 10px;
+    transition: transform 0.8s;
+}
+
+.pieza:hover {
+    border-color: dodgerblue;
+}
+
+.pieza.escondida {
+    background-image: radial-gradient( #828ca0, #515a6d);
+    transform: rotateY(180deg);
+}

@@ -1,0 +1,11 @@
+.tablero {
+    display: inline-grid;
+    grid-template-columns: repeat(3, fit-content(120px));
+    padding: 4vh;
+    align-items: center;
+    justify-items: center;
+}
+
+.tablero .pieza {
+    margin: 10px;
+}
